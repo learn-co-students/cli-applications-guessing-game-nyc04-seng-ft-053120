@@ -2,6 +2,7 @@
 require "pry"
 def run_guessing_game
     numri=rand(6)+1
+    puts "Type a number between 1 and 6"
     user=gets.chomp
     if(user == "exit")
         puts "Goodbye!"
